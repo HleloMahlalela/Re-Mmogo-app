@@ -1,0 +1,77 @@
+.enroll-page {
+    padding: 40px 30px;
+}
+
+.enroll-header {
+    margin-bottom: 30px;
+}
+
+.enroll-header h1 {
+    color: #0f7a36;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.enroll-header p {
+    color: #666;
+}
+
+.enroll-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.enroll-card h2 {
+    margin-bottom: 20px;
+}
+
+.enroll-form {
+    display: grid;
+    gap: 15px;
+}
+
+.enroll-form input,
+.enroll-form select {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.enroll-form button {
+    background-color: #0f7a36;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.enroll-form button:hover {
+    background-color: #0c5f2a;
+}
+
+.members-list {
+    background-color: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.member-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.member-item:last-child {
+    border-bottom: none;
+}
+
+.member-role {
+    color: #0f7a36;
+    font-weight: bold;
+}

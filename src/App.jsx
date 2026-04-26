@@ -17,7 +17,7 @@ function App() {
 
       {/* Main app content */}
       <main className="main-container">
-        <Register />
+        <Enroll />
       </main>
     </>
   );
