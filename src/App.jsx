@@ -1,7 +1,7 @@
 import "./styles/global.css";
 import Navbar from "./components/Navbar";
 
-// Import pages
+// pages
 import Register from "./pages/Register";
 import Balances from "./pages/Balances";
 import Contributions from "./pages/Contributions";
