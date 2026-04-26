@@ -9,7 +9,7 @@
   flex-wrap: wrap;
 }
 
-/* Logo section */
+/* logo section*/
 .navbar-logo h1 {
   font-size: 28px;
   margin: 0;
@@ -20,7 +20,7 @@
   color: #d8f3dc;
 }
 
-/* Links section */
+/*links section*/
 .navbar-links {
   list-style: none;
   display: flex;
