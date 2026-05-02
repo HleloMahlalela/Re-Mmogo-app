@@ -1,0 +1,53 @@
+.balances-page {
+  padding: 40px 30px;
+}
+
+.balances-header {
+  margin-bottom: 30px;
+}
+
+.balances-header h1 {
+  color: #0f7a36;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.balances-header p {
+  color: #666;
+}
+
+.balance-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.balance-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.balance-card h3 {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.balance-card .amount {
+  color: #0f7a36;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.balance-card p {
+  color: #777;
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .balance-cards {
+    grid-template-columns: 1fr;
+  }
+}
