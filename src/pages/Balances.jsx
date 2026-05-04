@@ -33,4 +33,3 @@ function Balances() {
   );
 }
 
-export default Balances;
